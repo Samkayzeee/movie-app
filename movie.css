@@ -13,7 +13,7 @@ nav{
     z-index: +1;
     display: flex;
     justify-content: space-between;
-    padding: 1% 2%;
+    padding: 1% 3%;
     background: linear-gradient(to right, lightgreen, lightblue);
 }
 nav .name{
