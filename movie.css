@@ -5,20 +5,23 @@
     padding: 0;
 }
 body{
-    background-image: linear-gradient(to right, lightgreen, lightblue);
+    background: linear-gradient(to right, lightgreen, lightblue);
 }
 nav{
     position: sticky;
     top: 0;
     z-index: +1;
-}
-.section1{
-    padding: 10px;
     display: flex;
-    justify-content: flex-start;
-    background-image: linear-gradient(to right, lightblue, lightgreen) ;
-    margin-bottom: 1%;
-    border-bottom: solid 2px blue;
+    justify-content: space-between;
+    padding: 1% 2%;
+    background: linear-gradient(to right, lightgreen, lightblue);
+}
+nav .name{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
 }
 #search{
     background-color: lightblue;
@@ -34,7 +37,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 4% 0;
+    padding: 2% 0;
 }
 .movie{
     width: 300px;
@@ -92,7 +95,13 @@ footer{
     z-index: +3;
     background-image: linear-gradient(to right, lightgreen, lightblue);
     border: none;
+    width: 100%;
 }
 footer h4{
     text-align: center;
+}
+@media screen and (max-width:300px) {
+    #search{
+        width: 70%;
+    }
 }

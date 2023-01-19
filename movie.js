@@ -47,7 +47,6 @@ const movieShow = async(data) => {
             <div class="info">
                 <h3>${title}</h3>
                 <span class="${getColor(vote_average)} main_rating">${vote_average}</span>
-                <a href="https://www.youtube.com/watch?v=Z-alXY_6f94" target="_blank">Watch on Youtube</a>
             </div>    
         </div>
         `
