@@ -100,7 +100,7 @@ footer{
 footer h4{
     text-align: center;
 }
-@media screen and (max-width:300px) {
+@media screen and (max-width:500px) {
     #search{
         width: 70%;
     }
