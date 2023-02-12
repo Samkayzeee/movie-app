@@ -27,7 +27,7 @@ const getMovie = async(url) => {
 
     } catch (error) {
         main.innerHTML = `<h1>Videos not available<h1/>`;
-        console.log(`Theirs is an Error ${error}`);
+        console.log(`${error}`);
     }
 }
 getMovie(apiUrl);
