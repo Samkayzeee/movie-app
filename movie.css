@@ -50,17 +50,16 @@ nav .name{
     transition: all .3s;
     height: max-content;
     cursor: pointer;
+    height: 540px;
 }
-
+.movie:hover{
+    transform: translateY(-8px);
+}
 .movie img{
     width: 100%;
     transition: all .7s;
-    opacity: 50%;
 }
-.movie:hover img{
-    width: 100%;
-    opacity: 100%;
-}
+
 .info {
     color: white;
     display: flex;
